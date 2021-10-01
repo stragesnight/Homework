@@ -1,13 +1,13 @@
-/* ЗАДАНИЕ 1
-task1.cpp выводит один куплет песни на экран 
-и использует escape-последовательности для форматирования */
+/* Р—РђР”РђРќРР• 1
+task1.cpp РІС‹РІРѕРґРёС‚ РѕРґРёРЅ РєСѓРїР»РµС‚ РїРµСЃРЅРё РЅР° СЌРєСЂР°РЅ 
+Рё РёСЃРїРѕР»СЊР·СѓРµС‚ escape-РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё РґР»СЏ С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёСЏ */
 
-#include <iostream>			//библиотека для ввода-вывода текста на экран
-using namespace std;		//позволяет не обращаться к std вручную
+#include <iostream>			//Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ РІРІРѕРґР°-РІС‹РІРѕРґР° С‚РµРєСЃС‚Р° РЅР° СЌРєСЂР°РЅ
+using namespace std;		//РїРѕР·РІРѕР»СЏРµС‚ РЅРµ РѕР±СЂР°С‰Р°С‚СЊСЃСЏ Рє std РІСЂСѓС‡РЅСѓСЋ
 
-int main()					//основная функция программы
+int main()					//РѕСЃРЅРѕРІРЅР°СЏ С„СѓРЅРєС†РёСЏ РїСЂРѕРіСЂР°РјРјС‹
 {
-	cout << "I'm giving you a night call to tell you how I feel\n"		//вывод текста на экран при помощи cout
+	cout << "I'm giving you a night call to tell you how I feel\n"		//РІС‹РІРѕРґ С‚РµРєСЃС‚Р° РЅР° СЌРєСЂР°РЅ РїСЂРё РїРѕРјРѕС‰Рё cout
 		 << "(We'll go all, all, all night long)\n"
 		 << "I want to drive you through the night, down the hills\n"
 		 << "(We'll go all, all, all night long)\n"
@@ -16,5 +16,5 @@ int main()					//основная функция программы
 		 << "I'm gonna show you where it's dark, but have no fear\n"
 		 << "(We'll go all, all, all night long)\n";
 
-	system("pause"); return 0;											//пауза программы и объявление её завершения
+	system("pause"); return 0;											//РїР°СѓР·Р° РїСЂРѕРіСЂР°РјРјС‹ Рё РѕР±СЉСЏРІР»РµРЅРёРµ РµС‘ Р·Р°РІРµСЂС€РµРЅРёСЏ
 }
